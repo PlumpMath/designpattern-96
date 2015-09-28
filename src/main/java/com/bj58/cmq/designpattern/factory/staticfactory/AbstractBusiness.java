@@ -9,6 +9,9 @@ package com.bj58.cmq.designpattern.factory.staticfactory;
  */
 public abstract class AbstractBusiness {
 	
+	/**
+	 * @param query
+	 */
 	public abstract void doAction(String query);
 
 }
